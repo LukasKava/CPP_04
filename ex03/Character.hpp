@@ -6,7 +6,7 @@
 /*   By: lkavalia <lkavalia@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/01 18:26:35 by lkavalia          #+#    #+#             */
-/*   Updated: 2023/03/06 15:09:59 by lkavalia         ###   ########.fr       */
+/*   Updated: 2023/03/09 16:02:26 by lkavalia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@ class	Character: public ICharacter
 private:
 	Character(void);
 	AMateria	*_slot[4];
+	AMateria	*_lost[4];
 	std::string	_name;
 public:
 	int			check;

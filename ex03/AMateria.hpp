@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   AMateria.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lkavalia <lkavalia@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: lkavalia <lkavalia@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/01 11:32:37 by lkavalia          #+#    #+#             */
-/*   Updated: 2023/03/06 15:09:36 by lkavalia         ###   ########.fr       */
+/*   Updated: 2023/03/09 11:32:06 by lkavalia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,5 +39,6 @@ public:
 #define GREEN "\033[0;32m"
 #define YELL "\033[0;33m"
 #define CYAN "\033[0;36m"
+#define	GREY "\x1b[90m"
 
 #endif

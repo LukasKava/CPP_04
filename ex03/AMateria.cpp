@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   AMateria.cpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lkavalia <lkavalia@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: lkavalia <lkavalia@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/01 11:32:34 by lkavalia          #+#    #+#             */
-/*   Updated: 2023/03/06 15:12:06 by lkavalia         ###   ########.fr       */
+/*   Updated: 2023/03/09 11:33:00 by lkavalia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,24 +14,24 @@
 
 AMateria::AMateria(void): _type("Default")
 {
-	std::cout << GREEN << "AMateria default constructor has been called!" << BLANK << std::endl;
+	std::cout << GREY << "AMateria default constructor has been called!" << BLANK << std::endl;
 }
 
 AMateria::AMateria(const AMateria&	other)
 {
-	std::cout << GREEN << "AMateria copy constructor has been called!" << BLANK << std::endl;
+	std::cout << GREY << "AMateria copy constructor has been called!" << BLANK << std::endl;
 	_type = other._type;
 }
 
 AMateria::~AMateria(void)
 {
-	std::cout << RED << "AMateria default destructor has been called" << BLANK << std::endl;
+	std::cout << GREY << "AMateria default destructor has been called" << BLANK << std::endl;
 	
 }
 
 AMateria&	AMateria::operator=(const AMateria& other)
 {
-	std::cout << GREEN << "Amateria copy assingment operator overload has been called!" << BLANK << std::endl;
+	std::cout << GREY << "Amateria copy assingment operator overload has been called!" << BLANK << std::endl;
 	_type = other._type;
 	
 	return (*this);
